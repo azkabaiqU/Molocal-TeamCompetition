@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 desc: 'Indonesia menawarkan keindahan alam yang luar biasa, dari pegunungan hingga pantai tropis. Artikel ini mengeksplorasi destinasi wisata alam terbaik, mulai dari Gunung Bromo yang megah hingga kepulauan Raja Ampat yang terkenal dengan keindahan bawah lautnya. Wisatawan dapat menikmati petualangan alam yang memanjakan mata dan jiwa di berbagai daerah Indonesia.',
                 type: 'Wisata',
                 membaca: 'belum membaca',
-
                 id: '1',
 
             },
@@ -279,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.setAttribute('data-id', cardData.id); // Set data-id attribute
             card.addEventListener('click', () => {
                 // Mengarahkan pengguna ke halaman detail dengan query parameter ID
-                window.location.href = `detail.html?id=${cardData.id}`;
+                window.location.href = `src/html/detail.html?id=${cardData.id}`;
             });
 
             const cardInnerHtml = `
